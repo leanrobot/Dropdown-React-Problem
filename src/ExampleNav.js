@@ -11,12 +11,9 @@ Prompt:
   2. Please then make improvements to the dropdown.
   3. Consider the different ways that this dropdown might be used and what
      changes would be neccessary to make it more flexible.
-  4. If we wanted to sync this dropdown selection to the server with
-     app.sync('PATCH', 'user', { dropdown_1_state: {true,false} })
-     where would this be included?
-  5. If we wanted to pass children (like this example) OR a Promise that
-     resolves to an array of items what changes should be made?
-     (just a sentence or two or some code is ok).
+  4. If we wanted to pass children (like this example) OR a Promise
+     (that may or not have been resolved yet) that resolves to an array of items
+     what changes should be made.
 
   PS: No need to worry about CSS.
  */
